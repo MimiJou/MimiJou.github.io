@@ -272,7 +272,7 @@
     position: relative;
   }
   .about-board {
-    width: 70%;
+    width: 900px;
     height: 1100px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -295,7 +295,7 @@
   .about-pht2 {
     position: absolute;
     top: 670px;
-    right: 488px;
+    right: 484px;
     z-index: 100;
     transition: all 0.2s;
   }
@@ -311,7 +311,7 @@
     padding: 72px 32px;
   }
   .about-board {
-    width: 80%;
+    width: 700px;
     height: 900px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -419,7 +419,7 @@
 }
 @media (max-width: 900px) {
   .about-board {
-    width: 90%;
+    width: 600px;
     height: 800px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -482,30 +482,30 @@
     justify-content: flex-start;
   }
   .about-board {
-    width: 100%;
-    height: 950px;
-    padding-top: 72px;
-    padding-bottom: 72px;
-    border-radius: 0px;
-    gap: 50px;
+    width: 400px;
+    height: 920px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 30px;
+    gap: 60px;
     flex-direction: column-reverse;
   }
   .paper-clip {
     width: 50px;
-    top: 80px;
-    left: 70px;
+    top: 70px;
+    left: 80px;
     z-index: 600;
   }
   .eraser {
     width: 80px;
-    top: 230px;
-    left: 50px;
+    top: 200px;
+    left: 60px;
     z-index: 600;
   }
   .pencil {
     width: 100px;
-    top: 180px;
-    left: 240px;
+    top: 150px;
+    left: 250px;
     z-index: 600;
   }
   .about-title h1 {
@@ -518,10 +518,10 @@
   }
   /*人物*/
   .about-group1 {
-    width: 400px;
+    width: 100%;
     height: 355px;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
   }
   .about-group1-img {
     width: 130px;
@@ -562,7 +562,7 @@
   }
   /*照片*/
   .about-group2 {
-    width: 520px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -589,12 +589,53 @@
     transform: rotate(4deg);
   }
   .about-pht2 {
-    top: 100px;
-    left: 90px;
-    transform: rotate(-4deg);
+    display: none;
   }
-  .about-board:hover .about-pht2 {
-    top: 100px;
-    right: 205px;
+}
+@media (max-width: 375px) {
+  .about-board {
+    width: 375px;
+    border-radius: 0px;
+  }
+  .paper-clip {
+    width: 50px;
+    top: 75px;
+    left: 70px;
+    z-index: 600;
+  }
+  .eraser {
+    width: 80px;
+    top: 200px;
+    left: 50px;
+    z-index: 600;
+  }
+  .pencil {
+    width: 100px;
+    top: 150px;
+    left: 240px;
+    z-index: 600;
+  }
+}
+@media (max-width: 320px) {
+  .about-board {
+    width: 320px;
+  }
+  .paper-clip {
+    width: 50px;
+    top: 70px;
+    left: 40px;
+    z-index: 600;
+  }
+  .eraser {
+    width: 80px;
+    top: 200px;
+    left: 20px;
+    z-index: 600;
+  }
+  .pencil {
+    width: 100px;
+    top: 160px;
+    left: 200px;
+    z-index: 600;
   }
 }
