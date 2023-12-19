@@ -157,7 +157,11 @@ body {
   }
 }
 @media (max-width: 520px) {
+  .nav-outside {
+    width: 100%;
+  }
   .navbar {
+    width: 90%;
     align-items: center;
     justify-content: space-between;
     padding: 0px 32px 0px 32px;

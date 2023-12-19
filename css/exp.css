@@ -123,7 +123,7 @@
 }
 @media (max-width: 1440px) {
   .experience {
-    max-width: 900px;
+    width: 65%;
     height: 1100px;
     align-items: center;
     justify-content: center;
@@ -146,6 +146,13 @@
   }
 }
 @media (max-width: 1200px) {
+  .experience {
+    width: 66%;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
   .exp-title h1 {
     font-size: 25px;
     font-weight: 600;
@@ -153,13 +160,6 @@
   .exp-title img {
     width: 100px;
     height: auto;
-  }
-  .experience {
-    max-width: 680px;
-    height: 1000px;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
   }
   .exp-content h2 {
     font-size: 18px;
@@ -201,6 +201,13 @@
   }
 }
 @media (max-width: 900px) {
+  .experience {
+    width: 88%;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
   .software {
     gap: 35px;
   }
@@ -213,6 +220,8 @@
 }
 @media (max-width: 520px) {
   .experience {
+    width: 90%;
+    height: 1100px;
     justify-content: flex-start;
     height: 1200px;
     padding: 0;

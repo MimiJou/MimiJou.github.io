@@ -34,7 +34,7 @@
 /*白板*/
 .about-board {
   display: flex;
-  width: 1327px;
+  width: 90%px;
   height: 704px;
   border-radius: 50px;
   background: #fff;
@@ -80,7 +80,7 @@
   height: 340px;
   position: absolute;
   top: 110px;
-  right: 135px;
+  right: 125px;
   z-index: 100;
   transition: all 0.2s;
 }
@@ -272,7 +272,7 @@
     position: relative;
   }
   .about-board {
-    width: 900px;
+    width: 70%;
     height: 1100px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -295,7 +295,7 @@
   .about-pht2 {
     position: absolute;
     top: 670px;
-    right: 482px;
+    right: 488px;
     z-index: 100;
     transition: all 0.2s;
   }
@@ -311,7 +311,7 @@
     padding: 72px 32px;
   }
   .about-board {
-    width: 700px;
+    width: 80%;
     height: 900px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -419,7 +419,7 @@
 }
 @media (max-width: 900px) {
   .about-board {
-    width: 600px;
+    width: 90%;
     height: 800px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -474,7 +474,6 @@
 }
 @media (max-width: 520px) {
   .about {
-    max-width: 520px;
     width: 100%;
     height: 1200px;
     padding: 72px 0px 72px 0px;
