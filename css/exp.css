@@ -1,0 +1,258 @@
+/*經歷*/
+.experience {
+  display: flex;
+  max-width: 1400px;
+  width: 95%;
+  height: 1000px;
+  padding: 72px 32px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.exp-title h1 {
+  color: #6e574a;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0px;
+  font-family: "Jost", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.exp-title img {
+  width: 144px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+.exp-content {
+  margin-bottom: 60px;
+}
+.exp-content h2 {
+  color: #b25f2f;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: autox;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.exp-content h2:first-child {
+  margin-top: 10px;
+}
+.exp-content h3 {
+  color: #6e574a;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: auto;
+  margin-bottom: 10px;
+}
+.exp-content p {
+  color: #6e574a;
+  text-align: left;
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 35px;
+  line-height: 30px;
+}
+.software {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.sof-title h1 {
+  color: #6e574a;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0px;
+  font-family: "Jost", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.sof-title img {
+  width: 144px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+.sof-title p {
+  color: #6e574a;
+  text-align: left;
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 25px;
+  line-height: 30px;
+  margin: -20px;
+}
+.software-item {
+  display: flex;
+  margin-top: 10px;
+}
+.software-item img {
+  width: 90px;
+  height: 90px;
+  transition: all 0.2s;
+}
+.software-item:hover img {
+  transform: scale(1.05);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.software-item p {
+  color: #6e574a;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.dotted-line1 {
+  position: absolute;
+  top: 2050px;
+  right: 0px;
+}
+.dotted-line2 {
+  position: absolute;
+  top: 2100px;
+  left: 0px;
+}
+@media (max-width: 1440px) {
+  .experience {
+    max-width: 900px;
+    height: 1100px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .exp-content p {
+    padding-left: 0px;
+  }
+  .dotted-line1 {
+    width: 300px;
+    height: auto;
+    top: 2550px;
+    right: 0px;
+  }
+  .dotted-line2 {
+    width: 150px;
+    height: auto;
+    top: 2500px;
+    left: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .exp-title h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .exp-title img {
+    width: 100px;
+    height: auto;
+  }
+  .experience {
+    max-width: 680px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .exp-content h2 {
+    font-size: 18px;
+  }
+  .exp-content h3 {
+    font-size: 20px;
+  }
+  .software {
+    gap: 40px;
+  }
+  .sof-title h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .sof-title img {
+    width: 100px;
+    height: auto;
+  }
+  .dotted-line1 {
+    width: 200px;
+    height: auto;
+    top: 1950px;
+    right: 0px;
+  }
+  .dotted-line2 {
+    width: 100px;
+    height: auto;
+    top: 1800px;
+    left: 0px;
+  }
+  .software-item {
+    display: flex;
+    margin-top: 8px;
+  }
+  .software-item img {
+    width: 72px;
+    height: 72px;
+    transition: all 0.2s;
+  }
+}
+@media (max-width: 900px) {
+  .software {
+    gap: 35px;
+  }
+  .dotted-line1 {
+    display: none;
+  }
+  .dotted-line2 {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .experience {
+    justify-content: flex-start;
+    height: 1200px;
+    padding: 0;
+  }
+  .exp-title h1 {
+    font-size: 20px;
+  }
+  .exp-title img {
+    width: 80px;
+    height: auto;
+  }
+  .exp-title p {
+    display: none;
+  }
+  .exp-content {
+    width: 256px;
+    margin-bottom: 60px;
+  }
+  .exp-content h2 {
+    font-size: 16px;
+  }
+  .exp-content h3 {
+    font-size: 20px;
+  }
+  .exp-content p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .software {
+    margin-top: -40px;
+    gap: 10px;
+  }
+  .sof-title {
+    display: none;
+  }
+  .software-item img {
+    width: 50px;
+    height: 50px;
+  }
+  .software-item p {
+    font-size: 12px;
+  }
+}

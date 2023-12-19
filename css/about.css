@@ -1,0 +1,601 @@
+/*關於我*/
+.about {
+  display: flex;
+  max-width: 1400px;
+  width: 95%;
+  height: 1000px;
+  padding: 72px 32px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+/*標題*/
+.about-title {
+  display: flex;
+  height: 100px;
+  background-color: #f4eee9;
+  flex-direction: column;
+}
+.about-title h1 {
+  color: #6e574a;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0px;
+  font-family: "Jost", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.about-title img {
+  width: 110px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+}
+/*白板*/
+.about-board {
+  display: flex;
+  width: 1327px;
+  height: 704px;
+  border-radius: 50px;
+  background: #fff;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 3px 3px 20px 0px rgba(110, 87, 74, 0.2);
+  position: relative;
+}
+.about-board:hover .about-pht1 {
+  transform: rotate(4deg);
+  transition: all 0.5s;
+}
+.about-board:hover .about-pht2 {
+  transform: rotate(-4deg);
+  transition: all 0.5s;
+}
+.eraser {
+  position: absolute;
+  top: 400px;
+  left: -120px;
+}
+.pencil {
+  position: absolute;
+  top: 180px;
+  left: 1245px;
+}
+.paper-clip {
+  position: absolute;
+  top: 30px;
+  left: -40px;
+}
+.about-pht1 {
+  width: 347.26px;
+  height: 347.26px;
+  z-index: 200;
+  transition: all 0.2s;
+}
+.about-pht2 {
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: 110px;
+  right: 135px;
+  z-index: 100;
+  transition: all 0.2s;
+}
+/*人物*/
+.about-group1 {
+  display: flex;
+  width: 700px;
+  height: 501px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-group1-img {
+  display: flex;
+  justify-content: flex-start;
+  width: 445px;
+  height: 474.409px;
+  background: center / cover url("../img/我-站.png") no-repeat;
+}
+.about-btn-group {
+  display: flex;
+  height: 520px;
+  width: 200px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.about-btn-span {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  line-height: normal;
+}
+.about-btn-group p {
+  color: #6e574a;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: normal;
+  word-break: normal;
+}
+.about-btn1 {
+  color: #6e574a;
+  background-color: transparent;
+  border-style: none;
+  display: inline-block;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  word-break: normal;
+  margin-left: -120px;
+  margin-top: 10px;
+  transition: all 0.5s;
+}
+.about-btn1:hover {
+  transition: all 0.2s;
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+.about-btn2 {
+  background-color: transparent;
+  border-style: none;
+  color: #6e574a;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  word-break: normal;
+  display: inline-block;
+  margin-left: 8px;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+.about-btn2:hover {
+  transition: all 0.2s;
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+.about-btn3 {
+  color: #6e574a;
+  background-color: transparent;
+  border-style: none;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  word-break: normal;
+  display: inline-block;
+  margin-left: -112px;
+  margin-top: 15px;
+  transition: all 0.5s;
+}
+.about-btn3:hover {
+  transition: all 0.2s;
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+.about-btn4 {
+  color: #6e574a;
+  background-color: transparent;
+  border-style: none;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  word-break: normal;
+  display: inline-block;
+  margin-left: -95px;
+  margin-top: 35px;
+  transition: all 0.5s;
+}
+.about-btn4:hover {
+  transition: all 0.2s;
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+.about-btn5 {
+  color: #6e574a;
+  background-color: transparent;
+  border-style: none;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  word-break: normal;
+  display: inline-block;
+  margin-left: -120px;
+  margin-top: 50px;
+  transition: all 0.5s;
+}
+.about-btn5:hover {
+  transition: all 0.2s;
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+/*照片*/
+.about-group2 {
+  display: flex;
+  width: 374.053px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.introduction {
+  display: flex;
+  width: 374.053px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.introduction h2 {
+  color: #6e574a;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  line-height: normal;
+}
+.introduction img {
+  width: 100px;
+  height: 8px;
+  margin-bottom: -10px;
+  margin-top: -25px;
+}
+.introduction p {
+  color: #6e574a;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: normal;
+  word-break: normal;
+}
+@media (max-width: 1440px) {
+  .pencil {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+  }
+  .about {
+    display: flex;
+    height: 1500px;
+    padding: 72px 32px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .about-board {
+    width: 900px;
+    height: 1100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 0px;
+    gap: 80px;
+    position: relative;
+  }
+  .about-group2 {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .about-pht2 {
+    position: absolute;
+    top: 670px;
+    right: 482px;
+    z-index: 100;
+    transition: all 0.2s;
+  }
+  .about-board:hover .about-pht2 {
+    top: 670px;
+    right: 482px;
+  }
+}
+@media (max-width: 1200px) {
+  .about {
+    display: flex;
+    height: 1100px;
+    padding: 72px 32px;
+  }
+  .about-board {
+    width: 700px;
+    height: 900px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    gap: 50px;
+    position: relative;
+  }
+  .paper-clip {
+    width: 70px;
+  }
+  .eraser {
+    width: 100px;
+    height: auto;
+    top: 450px;
+    left: -60px;
+  }
+  .pencil {
+    width: 150px;
+    height: auto;
+    top: 400px;
+    left: 600px;
+  }
+  .about-title h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .about-title img {
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+  }
+  /*人物*/
+  .about-group1 {
+    width: 550px;
+    height: 400px;
+  }
+  .about-group1-img {
+    width: 355px;
+    height: 375px;
+    background: center / cover url("../img/我-站.png") no-repeat;
+  }
+  .about-btn-group {
+    height: 450px;
+    width: 200px;
+  }
+  .about-btn-span {
+    font-size: 16px;
+  }
+  .about-btn-group p {
+    font-size: 14px;
+  }
+  .about-btn1 {
+    margin-left: -90px;
+    margin-top: 20px;
+    transition: all 0.5s;
+  }
+  .about-btn2 {
+    margin-left: 15px;
+    margin-top: 10px;
+    transition: all 0.5s;
+  }
+  .about-btn3 {
+    margin-left: -85px;
+    margin-top: 5px;
+    transition: all 0.5s;
+  }
+  .about-btn4 {
+    margin-left: -70px;
+    margin-top: 25px;
+    transition: all 0.5s;
+  }
+  .about-btn5 {
+    margin-left: -90px;
+    margin-top: 50px;
+    transition: all 0.5s;
+  }
+  /*照片*/
+  .about-group2 {
+    width: 580px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .introduction {
+    width: 300px;
+  }
+  .introduction p {
+    font-size: 14px;
+  }
+  .about-pht1 {
+    width: 250px;
+    height: auto;
+  }
+  .about-pht2 {
+    width: 240px;
+    height: auto;
+    top: 535px;
+    right: 395px;
+  }
+  .about-board:hover .about-pht2 {
+    top: 535px;
+    right: 395px;
+  }
+}
+@media (max-width: 900px) {
+  .about-board {
+    width: 600px;
+    height: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    gap: 80px;
+    position: relative;
+  }
+  .paper-clip {
+    width: 70px;
+  }
+  .eraser {
+    width: 100px;
+    height: auto;
+    top: 410px;
+    left: -60px;
+  }
+  .pencil {
+    width: 150px;
+    height: auto;
+    top: 300px;
+    left: 500px;
+  }
+  /*照片*/
+  .about-group2 {
+    width: 520px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .introduction {
+    width: 300px;
+  }
+  .introduction p {
+    font-size: 14px;
+  }
+  .about-pht1 {
+    width: 200px;
+    height: auto;
+    transform: rotate(4deg);
+  }
+  .about-pht2 {
+    width: 190px;
+    height: auto;
+    top: 545px;
+    right: 365px;
+    transform: rotate(-4deg);
+  }
+  .about-board:hover .about-pht2 {
+    top: 545px;
+    right: 365px;
+  }
+}
+@media (max-width: 520px) {
+  .about {
+    max-width: 520px;
+    width: 100%;
+    height: 1200px;
+    padding: 72px 0px 72px 0px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .about-board {
+    width: 100%;
+    height: 950px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    border-radius: 0px;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+  .paper-clip {
+    width: 50px;
+    top: 80px;
+    left: 70px;
+    z-index: 600;
+  }
+  .eraser {
+    width: 80px;
+    top: 230px;
+    left: 50px;
+    z-index: 600;
+  }
+  .pencil {
+    width: 100px;
+    top: 180px;
+    left: 240px;
+    z-index: 600;
+  }
+  .about-title h1 {
+    color: #6e574a;
+    font-size: 20px;
+  }
+  .about-title img {
+    width: 60px;
+    height: auto;
+  }
+  /*人物*/
+  .about-group1 {
+    width: 400px;
+    height: 355px;
+    justify-content: center;
+    gap: 10px;
+  }
+  .about-group1-img {
+    width: 130px;
+    height: 300px;
+    background: center / cover url("../img/我-站-手機.png") no-repeat;
+  }
+  .about-btn-group {
+    width: 160px;
+    height: 400px;
+    gap: 15px;
+    justify-content: center;
+  }
+  .about-btn-span {
+    font-size: 14px;
+  }
+  .about-btn-group p {
+    font-size: 14px;
+  }
+  .about-btn1 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .about-btn2 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .about-btn3 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .about-btn4 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .about-btn5 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  /*照片*/
+  .about-group2 {
+    width: 520px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+  }
+  .introduction {
+    align-items: flex-start;
+    width: 300px;
+  }
+  .introduction p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .introduction h2 {
+    font-size: 16px;
+  }
+  .introduction img {
+    width: 80px;
+    height: auto;
+  }
+  .about-pht1 {
+    width: 200px;
+    height: auto;
+    transform: rotate(4deg);
+  }
+  .about-pht2 {
+    top: 100px;
+    left: 90px;
+    transform: rotate(-4deg);
+  }
+  .about-board:hover .about-pht2 {
+    top: 100px;
+    right: 205px;
+  }
+}

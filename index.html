@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mimi</title>
-    <link rel="stylesheet" href="./style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/exp.css" />
     <!-- 字體 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,6 +32,14 @@
   </head>
   <body>
     <!--導覽列-->
+     <!--手機-->
+     <ul class="nav-list-phone">
+      <li class="nav-item-phone"><a href="/index.html">首頁</a></li>
+      <li class="nav-item-phone"><a href="#">關於我</a></li>
+      <li class="nav-item-phone"><a href="#">經歷</a></li>
+      <li class="nav-item-phone"><a href="#">作品集</a></li>
+     </ul>
+     <!--電腦-->
     <section class="nav-outside">
       <nav class="navbar">
         <a class="nav-logo" href="/index.html">
@@ -42,6 +54,8 @@
           <li class="nav-item"><a href="#">經歷</a></li>
           <li class="nav-item"><a href="#">作品集</a></li>
         </ul>
+        <!--隱藏選單-->
+        <img class="nav-list-img"src="./img/三.png"/>
       </nav>
     </section>
     <!--首頁-->
@@ -80,7 +94,7 @@
       <img class="paper-clip" src="../img/迴紋針.png"/>
         <!-- 人物區 -->
         <div class="about-group1">
-          <img class="me-img" src="../img/我(站).png" />
+          <div class="about-group1-img"></div>
          <div class="about-btn-group">
             <div class="about-btn1">
               <p><span class="about-btn-span">創意</span>
@@ -170,7 +184,7 @@
       </div>
       <!--軟體-->
       <section class="software">
-        <div class="exp-title">
+        <div class="sof-title">
           <h1>常用軟體</h1>
           <img src="../img/底線2.png" />
           <p>努力吸收學習
@@ -252,6 +266,5 @@
          </div>
        </div>
     </section>
-    <div>test</div>
   </body>
 </html>
