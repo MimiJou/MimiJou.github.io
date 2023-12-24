@@ -1,4 +1,9 @@
 /*經歷*/
+.exp-0 {
+  width: 0.1px;
+  height: 0.1px;
+  background-color: #f4eee9;
+}
 .experience {
   display: flex;
   max-width: 1400px;

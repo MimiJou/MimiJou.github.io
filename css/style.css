@@ -65,10 +65,30 @@ body {
   align-items: center;
   justify-content: center;
 }
+.nav-list-box {
+  display: flex;
+}
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.nav-item-2 {
+  padding: 2px 30px;
+  border-right: 2px solid #6e574a;
+}
+.nav-item-2 a {
+  display: inline-block;
+  color: #6e574a;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  transition: all 0.2s;
+}
+.nav-item-2 a:hover {
+  display: inline-block;
+  transition: all 0.5s;
+  transform: translateY(-5px);
 }
 .nav-item {
   padding: 2px 30px;
@@ -106,6 +126,7 @@ body {
 }
 .nav-list-btn {
   display: none;
+  background-color: #f4eee9;
 }
 .nav-item-phone {
   padding: 1px 20px;
@@ -160,6 +181,9 @@ body {
   .nav-item a {
     font-size: 16px;
   }
+  .nav-item-2 a {
+    font-size: 16px;
+  }
 }
 @media (max-width: 1200px) {
   .nav-logo-img {
@@ -170,6 +194,9 @@ body {
     font-size: 25px;
   }
   .nav-item a {
+    font-size: 16px;
+  }
+  .nav-item-2 a {
     font-size: 16px;
   }
 }
@@ -183,6 +210,9 @@ body {
   }
 }
 @media (max-width: 520px) {
+  .nav-list-box {
+    display: none;
+  }
   .nav-list-phone {
     display: flex;
   }
@@ -191,6 +221,7 @@ body {
     border: none;
     padding: 8px 12px;
     cursor: pointer;
+    background-color: #f4eee9;
   }
   .nav-outside {
     width: 100%;
