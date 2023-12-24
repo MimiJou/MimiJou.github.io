@@ -30,15 +30,16 @@
       href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Noto+Sans+TC:wght@100;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!--導覽列-->
      <!--手機-->
      <ul class="nav-list-phone">
-      <li class="nav-item-phone"><a href="/index.html">首頁</a></li>
-      <li class="nav-item-phone"><a href="#">關於我</a></li>
-      <li class="nav-item-phone"><a href="#">經歷</a></li>
-      <li class="nav-item-phone"><a href="#">作品集</a></li>
+      <li class="nav-item-phone"><a class="nav-link" href="/index.html">首頁</a></li>
+      <li class="nav-item-phone"><a class="nav-link" href="#about">關於我</a></li>
+      <li class="nav-item-phone"><a class="nav-link" href="#experience">經歷</a></li>
+      <li class="nav-item-phone"><a class="nav-link" href="#work">作品集</a></li>
      </ul>
      <!--電腦-->
     <section class="nav-outside">
@@ -50,23 +51,29 @@
           <span>Mimi Jou</span>
         </a>
         <ul class="nav-list">
-          <li class="nav-item"><a href="/index.html">首頁</a></li>
-          <li class="nav-item"><a href="#">關於我</a></li>
-          <li class="nav-item"><a href="#">經歷</a></li>
-          <li class="nav-item"><a href="#">作品集</a></li>
+          <li class="nav-item"><a class="nav-link" href="/index.html">首頁</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">經歷</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">作品集</a></li>
         </ul>
-        <!--隱藏選單-->
-        <img class="nav-list-img"src="./img/三.png"/>
+         <!--隱藏選單-->
+      <button type="button" class="nav-list-btn">
+        <img class="nav-list-img"src="./img/三.png" alt="btn"/>
+      </button>
       </nav>
     </section>
     <!--首頁-->
      <!-- 裝飾 -->
-     <img class="hero-wave1" src="../img/波浪-左.png" />
-     <img class="hero-wave2" src="../img/波浪-右.png" />
+     <img class="hero-wave1" data-aos="fade-up" 
+     data-aos-duration="2000" data-aos-delay="600" 
+     data-aos-once="false" src="../img/波浪-左.png" />
+     <img class="hero-wave2" data-aos="fade-up" 
+     data-aos-duration="2000" data-aos-delay="600" 
+     data-aos-once="false" src="../img/波浪-右.png" />
     <section class="hero">
-      </div>
-      <div class="hero-content">
-        <h1 class="hero-title">Hello ! I’m Mimi !</h1>
+      <div class="hero-content" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
+        <h1 class="hero-title" >Hello ! I’m Mimi !</h1>
         <p>
           喜愛設計與繪畫，細心規劃圖像動態與畫面的呈現，
           <br />用創意的思考與踏實學習的精神，努力創造清晰又有趣的設計
@@ -76,22 +83,28 @@
           <a class="hero-btn" href="#">作品集</a>
         </div>
       </div>
-      <div class="hero-img">
+      <div class="hero-img" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-once="false">
         <img src="./img/圓框.png" alt="hero" />
       </div>
     </section>
     <!--關於我-->
-    <section class="about">
+    <section class="about" id="about" data-aos="fade-up" 
+    data-aos-duration="2000" data-aos-delay="900" data-aos-once="false">
         <!-- 標題 -->
         <div class="about-title">
           <h1>關於我</h1>
-          <img src="../img/底線.png" />
+          <img src="../img/底線.png"/>
         </div>
       <!-- 白板 -->
       <div class="about-board">
        <!-- 裝飾 -->
-      <img class="eraser" src="../img/擦布.png"/>
-      <img class="pencil" src="../img/鉛筆.png"/>
+      <img class="eraser" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="300" 
+      data-aos-once="false" src="../img/擦布.png"/>
+      <img class="pencil" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="600" 
+      data-aos-once="false" src="../img/鉛筆.png"/>
       <img class="paper-clip" src="../img/迴紋針.png"/>
         <!-- 人物區 -->
         <div class="about-group1">
@@ -141,10 +154,15 @@
       </div>
     </section>
      <!-- 裝飾 -->
-      <img class="dotted-line1" src="../img/虛線1.png"/>
-      <img class="dotted-line2" src="../img/虛線2.png"/>
+      <img class="dotted-line1" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="600" 
+      data-aos-once="false" src="../img/虛線1.png"/>
+      <img class="dotted-line2" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="900" 
+      data-aos-once="false" src="../img/虛線2.png"/>
      <!--經歷-->
-    <section class="experience">
+    <section class="experience" id="experience" data-aos="fade-up" 
+    data-aos-duration="2000" data-aos-delay="900" data-aos-once="false">
        <!-- 標題 -->
       <div class="exp-title">
         <h1>工作經歷</h1>
@@ -184,7 +202,8 @@
          </p>
       </div>
       <!--軟體-->
-      <section class="software">
+      <section class="software" data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="300" data-aos-once="false">
         <div class="sof-title">
           <h1>常用軟體</h1>
           <img src="../img/底線2.png" />
@@ -229,7 +248,8 @@
       </section>
     </section>
      <!--作品選項-->
-    <section class="work">
+    <section class="work" id="work" data-aos="fade-up" 
+    data-aos-duration="2000" data-aos-delay="900" data-aos-once="false">
       <div class="work-title">
         <h1>作品集</h1>
         <img src="../img/底線.png" />
@@ -254,7 +274,7 @@
         </div>
     </section> 
     <!--資訊-->
-    <section class="lowest">
+    <section class="lowest" >
       <div class="information">
          <div class="information-item">
          <img src="../img/🦆 ig.png"/><p>ika_ink_</p>
@@ -267,5 +287,8 @@
          </div>
        </div>
     </section>
+    <div class="overlay"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./JS/index.js"></script>
   </body>
 </html>

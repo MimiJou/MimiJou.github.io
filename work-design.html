@@ -28,45 +28,48 @@
       href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Noto+Sans+TC:wght@100;800&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <!--設計-->
   <body>
     <!--導覽列-->
-        <!--手機-->
-        <ul class="nav-list-phone">
-          <li class="nav-item-phone"><a href="/index.html">首頁</a></li>
-          <li class="nav-item-phone"><a href="#">關於我</a></li>
-          <li class="nav-item-phone"><a href="#">經歷</a></li>
-          <li class="nav-item-phone"><a href="#">作品集</a></li>
-         </ul>
-         <!--電腦-->
-        <section class="nav-outside">
-          <nav class="navbar">
-            <a class="nav-logo" href="/index.html">
-              <div class="nav-logo-img">
-                <img src="./img/頭.png" alt="" />
-              </div>
-              <span>Mimi Jou</span>
-            </a>
-            <ul class="nav-list">
-              <li class="nav-item"><a href="/index.html">首頁</a></li>
-              <li class="nav-item"><a href="#">關於我</a></li>
-              <li class="nav-item"><a href="#">經歷</a></li>
-              <li class="nav-item"><a href="#">作品集</a></li>
-            </ul>
-            <!--隱藏選單-->
-            <img class="nav-list-img"src="./img/三.png" alt="" />
-          </nav>
-        </section>
+     <!--手機-->
+     <ul class="nav-list-phone">
+      <li class="nav-item-phone"><a class="nav-link" href="/index.html">回首頁</a></li>
+      <li class="nav-item-phone"><a class="nav-link" href="#work">其他作品</a></li>
+     </ul>
+     <!--電腦-->
+    <section class="nav-outside">
+      <nav class="navbar">
+        <a class="nav-logo" href="/index.html">
+          <div class="nav-logo-img">
+            <img src="./img/頭.png" alt="" />
+          </div>
+          <span>Mimi Jou</span>
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="/index.html">回首頁</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">其他作品</a></li>
+        </ul>
+         <!--隱藏選單-->
+      <button type="button" class="nav-list-btn">
+        <img class="nav-list-img"src="./img/三.png" alt="btn"/>
+      </button>
+      </nav>
+    </section>
     <!--作品-->
     <section class="draw">
       <!-- 標題 -->
-      <div class="draw-title">
+      <div class="draw-title"
+      data-aos="fade-up" 
+      data-aos-duration="2000" >
         <h1>設　計</h1>
         <img src="../img/底線.png" />
       </div>
       <!-- 設計1 -->
-      <div class="draw-board">
+      <div class="draw-board"
+      data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="300" >
         <!-- 裝飾 -->
         <img class="paper-clip" src="../img/迴紋針.png" />
         <!-- 圖片 -->
@@ -88,7 +91,9 @@
         </div>
       </div>
       <!-- 設計2 -->
-      <div class="draw-board">
+      <div class="draw-board"
+      data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="300" >
         <!-- 裝飾 -->
         <img class="paper-clip" src="../img/迴紋針.png" />
         <!-- 圖片 -->
@@ -112,7 +117,10 @@
       </div>
     </section>
          <!--作品選項-->
-         <section class="work">
+         <section id="work" class="work"
+         data-aos="fade-up" 
+      data-aos-duration="2000" data-aos-delay="300" 
+      data-aos-once="false">
           <div class="work-title">
             <h1>作品集</h1>
             <img src="../img/底線.png" />
@@ -150,5 +158,8 @@
          </div>
        </div>
     </section>
+    <div class="overlay"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./JS/index.js"></script>
   </body>
 </html>
