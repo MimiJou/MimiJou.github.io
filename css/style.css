@@ -9,6 +9,7 @@ body {
   position: relative;
   background-color: #f4eee9;
   margin-top: 76.77px;
+  overflow-x: hidden;
 }
 /*導覽器*/
 .nav-outside {
