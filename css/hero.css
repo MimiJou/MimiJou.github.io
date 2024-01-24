@@ -36,7 +36,7 @@
   text-align: left;
 }
 .hero-img {
-  max-width: 650px;
+  max-width: 550px;
   height: auto;
   display: grid;
   place-content: center;
@@ -81,7 +81,7 @@
 }
 .hero-wave2 {
   position: absolute;
-  top: 800px;
+  top: 700px;
   right: 0px;
   z-index: 0;
 }
