@@ -283,7 +283,7 @@
   }
   .draw-board {
     width: 560px;
-    height: 60px;
+    height: 620px;
     padding-top: 50px;
     padding-bottom: 50px;
     flex-direction: column;
