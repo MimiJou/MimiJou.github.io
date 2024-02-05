@@ -271,7 +271,7 @@
     transform: rotate(-4deg);
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .draw {
     align-items: center;
   }
